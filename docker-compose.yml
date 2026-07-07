@@ -3,9 +3,9 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    environment:
-      - VITE_BACKEND_URL=http://bondle-back:4112
-      - VITE_ENV=prod
+      args:
+        - VITE_BACKEND_URL=http://bondle-back:4112
+        - VITE_ENV=prod
     container_name: bondle-front
     restart: unless-stopped
     ports:
