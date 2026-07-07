@@ -4,7 +4,7 @@ services:
       context: .
       dockerfile: Dockerfile
       args:
-        - VITE_BACKEND_URL=http://bondle-back:4112
+        - VITE_BACKEND_URL=https://bondleapi.khalilktiri.com/
         - VITE_ENV=prod
     container_name: bondle-front
     restart: unless-stopped
