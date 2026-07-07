@@ -1,0 +1,3 @@
+bondle.khalilktiri.com { 
+    reverse_proxy bondle-front:5111
+}

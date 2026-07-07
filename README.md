@@ -1,0 +1,3 @@
+- Learnable in 30 seconds
+- Competitive or cooperative
+- Funnu Momement and discussion
